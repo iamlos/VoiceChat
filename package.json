@@ -1,0 +1,23 @@
+{
+  "name": "voicechatdemo",
+  "version": "1.0.0",
+  "description": "A simple video chat app demo with pubnub",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdbruhn/VoiceChat.git"
+  },
+  "author": "Rob Bruhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdbruhn/VoiceChat/issues"
+  },
+  "homepage": "https://github.com/rdbruhn/VoiceChat#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
