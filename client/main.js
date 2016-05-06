@@ -11,7 +11,7 @@ function login(form) {
   });
   phone.receive(function(session){
       session.connected(function(session) { $('#call-box').append(session.video); });
-      session.ended(function(session) { $('#call-box').innerHTML=''; });
+      session.ended(function(session) { $('#call-box').html(''); });
   });
   return false;   // So the form does not submit.
 }
