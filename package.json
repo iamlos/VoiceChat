@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A simple video chat app demo with pubnub",
   "main": "server/server.js",
+  "engines": { "node": "v4.4.3" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon server/server.js"
+    "start":"node server/server.js"
   },
   "repository": {
     "type": "git",
